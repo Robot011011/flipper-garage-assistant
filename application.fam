@@ -1,0 +1,8 @@
+App(
+    appid="garage_test",
+    name="Garage Assistant",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="garage_test_main",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+)
