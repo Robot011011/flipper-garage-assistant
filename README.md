@@ -1,8 +1,24 @@
+![Flipper Zero](https://img.shields.io/badge/Flipper-Zero-orange)
+
 # Garage Assistant
 
 Garage Assistant is a simple Flipper Zero external app for tracking basic motorcycle maintenance across multiple bikes. It uses Flipper's ViewPort, Canvas, input callback, and FuriMessageQueue APIs directly, without ViewDispatcher or Widget.
 
-The app is currently implemented with the internal app id `garage_test`, so some build artifacts and storage paths still use that name.
+The app is named Garage Assistant in the UI. Internal identifiers still use `garage_test` for compatibility, including the app id, source file name, build artifact name, and storage path.
+
+## 📸 Screenshots
+
+### Home
+![Home](screenshots/home.png)
+
+### Service
+![Service](screenshots/service.png)
+
+### Profile Edit
+![Profile Edit](screenshots/profile.png)
+
+### Settings
+![Settings](screenshots/settings.png)
 
 ## Features
 
@@ -161,7 +177,7 @@ The app supports up to 5 profiles. It keeps profile indexes compact when a bike 
 - Service tracking is mileage-based only
 - No dates, notes, parts list, or maintenance history log yet
 - No import/export UI for saved profile data
-- The internal app id, file name, and data path still use `garage_test`
+- Internal identifiers still use `garage_test` for compatibility
 
 ## Suggested Future Improvements
 
@@ -170,4 +186,3 @@ The app supports up to 5 profiles. It keeps profile indexes compact when a bike 
 - Add optional reminders based on time as well as mileage
 - Add profile export/import
 - Add clearer editing shortcuts for names and numeric values
-- Rename internal ids and storage paths from `garage_test` to `garage_assistant` in a migration-safe way
